@@ -19,7 +19,6 @@ This repository demonstrates a simple end-to-end DevOps workflow using Git and G
   ### 2. Add Files
       
       ```
-      git add <filename>
       git add .
       ```
       Add specific files or all changes to the staging area.
@@ -34,7 +33,7 @@ This repository demonstrates a simple end-to-end DevOps workflow using Git and G
   ### 4. Set Up Remote Repository
       
       ```
-      git remote add origin https://github.com/your-username/repo-name.git
+      git remote add origin https://github.com/ShaikAbbas2092/Day-4-Version-control-in-Git.git
       ```
       Connect the local repo to a remote GitHub repository.
       
@@ -56,7 +55,7 @@ This repository demonstrates a simple end-to-end DevOps workflow using Git and G
       
       ```
       git checkout -b dev
-      git checkout -b feature/branch-name
+      git checkout -b feature/26-9-2025
       ```
       Create and switch to a new branch.
       
@@ -64,7 +63,7 @@ This repository demonstrates a simple end-to-end DevOps workflow using Git and G
       
       ```
       git push -u origin dev
-      git push -u origin feature/branch-name
+      git push -u origin feature/26-9-2025
       ```
       Push the newly created branch to GitHub.
       
@@ -83,5 +82,4 @@ This repository demonstrates a simple end-to-end DevOps workflow using Git and G
       ```
       Create and push a tag for release versioning.
       '''
-[8](https://confluence.atlassian.com/spaces/BitbucketServer/pages/776639995/Markdown+syntax+guide)
-[9](https://gitbook.com/docs/creating-content/formatting/markdown)
+
