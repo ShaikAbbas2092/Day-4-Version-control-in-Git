@@ -73,12 +73,17 @@ This repository demonstrates a simple end-to-end DevOps workflow using Git and G
       git pull origin main
       ```
       Sync local branch with the remote repository to fetch changes.
+
+      
       
   ### 10. Tag a Release Version
       
       ```
       git tag -a v1.0.0 -m "release message"
       git push origin v1.0.0
+      
+  <img width="1795" height="802" alt="Screenshot 2025-09-26 100729" src="https://github.com/user-attachments/assets/7dea2851-dcb7-4355-81b7-baeabaf4ceeb" />
+
       ```
       Create and push a tag for release versioning.
       '''
